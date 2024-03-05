@@ -20,11 +20,22 @@ import People from "./Images/People.png";
 import Line from "./Images/Line.png";
 import LineOne from "./Images/Line1.png";
 import Upline from "./Images/Upline.png";
-import RandomLine from './Images/RandomLine.png'
-import SideLine from './Images/sideLine.png'
-import DownLine from './Images/DownLine.png'
-import SimpleLine from './Images/SimpleLine.png'
-import LeftArrowLine from './Images/LeftArrowLine.png'
+import RandomLine from "./Images/RandomLine.png";
+import SideLine from "./Images/sideLine.png";
+import DownLine from "./Images/DownLine.png";
+import SimpleLine from "./Images/SimpleLine.png";
+import AnglePic from './Images/AnglePic.png'
+import Devops from './Images/Devops.png'
+import Intertaive from './Images/Intertaive.png'
+import LeftArrowLine from "./Images/LeftArrowLine.png";
+import WaterFallModels from './Images/WaterFallModels.png'
+import GradientLine from './Images/GradientLine.png'
+import Line65 from './Images/Line65.png'
+import SmallLine from './Images/SmallLine.png'
+import SomeBiggerLine from './Images/SomeBiggerLine.png'
+import BiggerLine from './Images/BiigerLine.png'
+import ShipIcon from './Images/Sheep.png'
+import JavaScriptIcons from './Images/JavaScript-icons.png'
 import { useState } from "react";
 
 export default function Home() {
@@ -32,6 +43,7 @@ export default function Home() {
     <main className={styles.main}>
       <Header />
       <Section />
+      <SecondSection />
       <Polygon />
       <AnglileModal />
       <ExpertToday />
@@ -79,15 +91,216 @@ const Section = () => {
   );
 };
 
+const SecondSection = () => {
+  return (
+    <div className={styles.SectionSectionContainer}>
+      <div className="w-[8%] h-full border-r-[2px] border-slate-500 relative">
+      <div>
+        <Image src={SmallLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={SomeBiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div className="absolute bottom-[2px] left-5">
+        <Image src={ShipIcon} alt="smallLine" />
+      </div>
+      
+      </div>
+      <div className="w-[62%] h-full border-r-[2px] border-slate-500 py-7 px-10 relative">
+        <h3 className="text-[50px] text-[#F78319] font-[800] leading-[75px]">TYPES</h3>
+        <p className="text-[35px] font-[700] leading-[53px]">Requirements, Scope, Functionalities and Utilization</p>
+        <div className="flex flex-row justify-start items-center mt-9">
+          <Image src={AnglePic} alt="angle_pic"  style={{width: '60px', height: '60px'}}/>
+          <p className="ml-4 text-[30px] leading-[45px] text-[#36454F]">Agile Model</p>
+        </div>
+        <div className="flex flex-row justify-start items-center mt-9">
+          <Image src={Devops} alt="Devops"  style={{width: '60px', height: '60px'}}/>
+          <p className="ml-4 text-[30px] leading-[45px] text-[#36454F]">DevOps Model</p>
+        </div>
+        <div className="flex flex-row justify-start items-center mt-9">
+          <Image src={Intertaive} alt="Iterative"  style={{width: '60px', height: '60px'}}/>
+          <p className="ml-4 text-[30px] leading-[45px] text-[#36454F]">Iterative Model</p>
+        </div>
+        <div className="flex flex-row justify-start items-center mt-9">
+          <Image src={WaterFallModels} alt="Waterfall"  style={{width: '60px', height: '60px'}}/>
+          <p className="ml-4 text-[30px] leading-[45px] text-[#36454F]">Waterfall Model</p>
+        </div>
+        {/* AbSolute Line */}
+        <div className="absolute top-[310px]">
+            <Image src={GradientLine} alt="gradientLine"/>
+        </div>
+        {/* SecondAbsolute Line */}
+        <div className="absolute top-[410px]">
+            <Image src={GradientLine} alt="gradientLine"/>
+        </div>
+        {/* ThirdAbsolute Line */}
+        <div className="absolute top-[510px]">
+            <Image src={GradientLine} alt="gradientLine"/>
+        </div>
+      </div>
+      <div className="w-[32%] h-full border-r-[2px] border-slate-500 py-7 px-10">
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-[50px] text-[#F78319] font-[700]">50+</h2>
+          <p className="text-center text-[22px] leading-[33px] text-[#36454F]">Businesses were introduced last year on Digital Platform</p>
+        </div>
+        <div className="flex flex-col justify-center items-center mt-9">
+          <h2 className="text-[50px] text-[#F78319] font-[700]">4.6 *</h2>
+          <p className="text-center text-[22px] leading-[33px] text-[#36454F]">Rating on Google by our Trusted Clients</p>
+        </div>
+        <div className="flex flex-col justify-center items-center mt-9">
+          <h2 className="text-[50px] text-[#F78319] font-[700]">20+</h2>
+          <p className="text-center text-[22px] leading-[33px] text-[#36454F]">Positive Reviews on Glassdoor</p>
+        </div>
+      </div>
+      <div className="w-[8%]">
+        <div className="w-full h-20 border-b-2 border-slate-500 p-2">
+          <Image src={JavaScriptIcons} alt="javaScri[ts_icons"/>
+
+        </div>
+        <div>
+        <Image src={SmallLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={SomeBiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+      <div>
+        <Image src={BiggerLine} alt="smallLine" />
+      </div>
+    
+      </div>
+
+      {/* absolute-line */}
+      <div className="absolute bottom-[60px] w-full">
+          <Image src={Line65} alt="line_65" style={{width: "92.6%"}}/>
+      </div>
+    </div>
+  );
+};
+
 const Polygon = () => {
   return (
     <div className={styles.Polygon}>
-      <Image
-        src={PolyGon}
-        alt="polugon"
-        layout="cover"
-        objectFit="contain"
-      />
+      <Image src={PolyGon} alt="polugon" objectFit="contain" />
     </div>
   );
 };
@@ -183,34 +396,38 @@ const AnglileModal = () => {
           </div>
           {/* AbsoluteDiv */}
           <div className="absolute top-28 left-[350px]">
-            <Image src={Upline} alt="upline_img"/>
+            <Image src={Upline} alt="upline_img" />
           </div>
           <div className="absolute top-[280px] left-[100px]">
-            <Image src={Upline} alt="upline_img"/>
+            <Image src={Upline} alt="upline_img" />
           </div>
           {/* Sprint-button */}
           <div className="absolute top-[210px] left-[250px]">
-          <div className="w-[220px] h-[48px] border-[1px] text-center py-2  border-[#F78319] rounded-xl bg-[#fff]">
-            <p className="text-[18px] text-[#F78319] font-[600]">
-             Daily Scrum Meeting
-            </p>
-          </div>
+            <div className="w-[220px] h-[48px] border-[1px] text-center py-2  border-[#F78319] rounded-xl bg-[#fff]">
+              <p className="text-[18px] text-[#F78319] font-[600]">
+                Daily Scrum Meeting
+              </p>
+            </div>
           </div>
           {/* Middle-Upline */}
           <div className="absolute top-[280px] left-[350px]">
-            <Image src={Upline} alt="upline_img"/>
+            <Image src={Upline} alt="upline_img" />
           </div>
-           {/* right-Upline */}
-           <div className="absolute top-[280px] right-[120px]">
-            <Image src={Upline} alt="upline_img"/>
+          {/* right-Upline */}
+          <div className="absolute top-[280px] right-[120px]">
+            <Image src={Upline} alt="upline_img" />
           </div>
           {/* Random-Upline */}
           <div className="absolute top-[315px] left-[220px]  w-auto h-[80px]">
-            <Image src={RandomLine} alt="Random-upline" style={{width: '100%', height: '100%'}}/>
+            <Image
+              src={RandomLine}
+              alt="Random-upline"
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
-           {/* Random-SideLine */}
-           <div className="absolute top-[315px] left-[106px]">
-            <Image src={SideLine} alt="Sideline-img"/>
+          {/* Random-SideLine */}
+          <div className="absolute top-[315px] left-[106px]">
+            <Image src={SideLine} alt="Sideline-img" />
           </div>
           {/* Down_line */}
           <div className="absolute top-[393px] left-[230px]">
@@ -332,7 +549,6 @@ const WhyChoose = () => {
                 src={item.imgPath}
                 alt="icon_png"
                 style={{ width: "85px", height: "85px" }}
-                
               />
               <p>{item.content}</p>
             </div>
@@ -344,68 +560,155 @@ const WhyChoose = () => {
 };
 
 const FrequentAskQuestion = () => {
-  const [showQuery, setShowQuery] = useState(false);
-  const handleClick = () => {
-    setShowQuery(!showQuery);
+  const FrequentAskedQuestion = [
+    {
+      Question: "What are Stackkaroo's Project Execution Models?",
+      Ans: `Stackkaroo's Project Execution Models are a group of rules and
+      methods made to simplify web development projects. These models give
+      a clear way to plan, carry out and finish projects. This makes sure
+      they are successful and done well.`,
+    },
+    {
+      Question: "What is the best project execution model for web development?",
+      Ans: `The way we do a project can change based on things like its needs, how many people are on the team, time limits and what the client wants. Agile and DevOps are often chosen for making websites because they can quickly change, give results fast, and work well with new needs. But, for projects with clear and steady needs, the Waterfall method can also work well. We must check what each project needs before picking the best model for it.`,
+    },
+    {
+      Question:
+        "How do Stackkaroo's Project Execution Models help with my web development projects?",
+      Ans: `Stackkaroo's Project Execution Models help manage projects in a step-by-step way. This makes it easier to organize, talk to others well, and be more productive. Use these examples to make sure your website projects finish on time, within the money limits and make the client happy.`,
+    },
+    {
+      Question:
+        "Can Stackkaroo's Project Execution Models be used for all kinds of web development projects?",
+      Ans: `Yes, Stackkaroo's Project Models are made to change and fit different types of web projects. If you're making a little website or a big web app, these models can be changed to match your special project needs.`,
+    },
+    {
+      Question:
+        "How do Stackkaroo's Project Execution Models help in reducing risks in projects?",
+      Ans: `Stackkaroo's Project Execution Models have risk management tactics. These help you find problems early and create plans for what to do if they happen. By dealing with problems before they happen, you can lessen their effects on your website building projects and make them run smoother.`,
+    },
+    {
+      Question:
+        "Can Stackkaroo's Project Execution Models be combined with current project management tools?",
+      Ans: `Yes, Stackkaroo's Project Execution Models can easily be connected with well-known project management tools like Jira, Trello or Asana. This mixing helps teamwork, job tracking and progress check. It makes projects do better.`,
+    },
+    // Add more questions and answers here as needed
+  ];
+
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const handleClick = (index) => {
+    setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
+
   return (
     <div className="w-[80%] mx-auto my-10">
       <h2 className="text-[50px] font-[900] text-[#F78319]">FAQS</h2>
-      <div
-        className={`rounded-xl mt-3 ${
-          showQuery ? "border border-slate-600 bg-[#fff]" : ""
-        }`}
-      >
-        <div
-          onClick={handleClick}
-          className="flex flex-row justify-between items-center cursor-pointer bg-[#fff] p-3 rounded-xl"
-        >
-          <h3 className="text-[35px] text-[#0A56F1] font-[600]">
-            What are Stackkaroo's Project Execution Models?
-          </h3>
-          <Image src={DownArrow} alt="down_arrow" />
-        </div>
-        <div
-          className={`my-3 overflow-hidden transition-max-height px-3 duration-300 ease-in-out ${
-            showQuery ? "max-h-[200px]" : "max-h-0"
-          }`}
-        >
-          <p className="text-[20px] font-[500] leading-8 text-[#36454F]">
-            Stackkaroo's Project Execution Models are a group of rules and
-            methods made to simplify web development projects. These models give
-            a clear way to plan, carry out and finish projects. This makes sure
-            they are successful and done well.
-          </p>
-        </div>
-      </div>
-      {/* Second Faq Question */}
-      <div
-        className={`rounded-xl mt-3 ${
-          showQuery ? "border border-slate-600 bg-[#fff]" : ""
-        }`}
-      >
-        <div
-          onClick={handleClick}
-          className="flex flex-row justify-between items-center cursor-pointer bg-[#fff] p-3 rounded-xl"
-        >
-          <h3 className="text-[35px] text-[#0A56F1] font-[600]">
-            What are Stackkaroo's Project Execution Models?
-          </h3>
-          <Image src={DownArrow} alt="down_arrow" />
-        </div>
-        <div
-          className={`my-3 overflow-hidden transition-max-height px-3 duration-300 ease-in-out ${
-            showQuery ? "max-h-[200px]" : "max-h-0"
-          }`}
-        >
-          <p className="text-[20px] font-[500] leading-8 text-[#36454F]">
-            Stackkaroo's Project Execution Models are a group of rules and
-            methods made to simplify web development projects. These models give
-            a clear way to plan, carry out and finish projects. This makes sure
-            they are successful and done well.
-          </p>
-        </div>
-      </div>
+      {FrequentAskedQuestion.map((item, index) => {
+        const isOpen = openIndex === index;
+
+        return (
+          <div
+            key={index}
+            className={`rounded-xl mt-3 ${
+              isOpen ? "border-[1px] border-[#0A56F1] bg-[#fff]" : ""
+            }`}
+          >
+            <div
+              onClick={() => handleClick(index)}
+              className="flex flex-row justify-between items-center cursor-pointer bg-[#fff] p-3 rounded-xl"
+            >
+              <h3 className="text-[25px] text-[#0A56F1] font-[600]">
+                {item.Question}
+              </h3>
+              <Image src={DownArrow} alt="down_arrow" />
+            </div>
+            <div
+              className={`my-3 overflow-hidden transition-max-height px-3 duration-300 ease-in-out ${
+                isOpen ? "max-h-[200px]" : "max-h-0"
+              }`}
+            >
+              <p className="text-[20px] font-[500] leading-8 text-[#36454F]">
+                {item.Ans}
+              </p>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
+
+
+//   const FrequentAskedQuestion = [
+//     {
+//       Quetsion: "What are Stackkaroo's Project Execution Models?",
+//       Ans: `Stackkaroo's Project Execution Models are a group of rules and
+//       methods made to simplify web development projects. These models give
+//       a clear way to plan, carry out and finish projects. This makes sure
+//       they are successful and done well.`,
+//     },
+//     {
+//       Quetsion: "What are Stackkaroo's Project Execution Models?",
+//       Ans: `Stackkaroo's Project Execution Models are a group of rules and
+//       methods made to simplify web development projects. These models give
+//       a clear way to plan, carry out and finish projects. This makes sure
+//       they are successful and done well.`,
+//     },
+//     {
+//       Quetsion: "What are Stackkaroo's Project Execution Models?",
+//       Ans: `Stackkaroo's Project Execution Models are a group of rules and
+//       methods made to simplify web development projects. These models give
+//       a clear way to plan, carry out and finish projects. This makes sure
+//       they are successful and done well.`,
+//     },
+//     {
+//       Quetsion: "What are Stackkaroo's Project Execution Models?",
+//       Ans: `Stackkaroo's Project Execution Models are a group of rules and
+//       methods made to simplify web development projects. These models give
+//       a clear way to plan, carry out and finish projects. This makes sure
+//       they are successful and done well.`,
+//     },
+//   ];
+
+//   const [showQuery, setShowQuery] = useState(false);
+//   const handleClick = () => {
+//     setShowQuery(!showQuery);
+//   };
+//   return (
+//     <div className="w-[80%] mx-auto my-10">
+//       <h2 className="text-[50px] font-[900] text-[#F78319]">FAQS</h2>
+//       {FrequentAskQuestion.map((item, index) => {
+//         return (
+//           <div
+//             className={`rounded-xl mt-3 ${
+//               showQuery ? "border border-slate-600 bg-[#fff]" : ""
+//             }`}
+//           >
+//             <div
+//               onClick={handleClick}
+//               className="flex flex-row justify-between items-center cursor-pointer bg-[#fff] p-3 rounded-xl"
+//             >
+//               <h3 className="text-[35px] text-[#0A56F1] font-[600]">
+//                 What are Stackkaroo's Project Execution Models?
+//               </h3>
+//               <Image src={DownArrow} alt="down_arrow" />
+//             </div>
+//             <div
+//               className={`my-3 overflow-hidden transition-max-height px-3 duration-300 ease-in-out ${
+//                 showQuery ? "max-h-[200px]" : "max-h-0"
+//               }`}
+//             >
+//               <p className="text-[20px] font-[500] leading-8 text-[#36454F]">
+//                 Stackkaroo's Project Execution Models are a group of rules and
+//                 methods made to simplify web development projects. These models
+//                 give a clear way to plan, carry out and finish projects. This
+//                 makes sure they are successful and done well.
+//               </p>
+//             </div>
+//           </div>
+//         );
+//       })}
+//     </div>
+//   );
+// };

@@ -82,6 +82,17 @@
   font-weight: 500;
   color: #36454F;
 }
+.SectionSectionContainer {
+  width: 80%;
+  height: 700px;
+  margin: 40px auto;
+  border: 1px solid #36454F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
 /* Polygon Css */
 
 .Polygon {
