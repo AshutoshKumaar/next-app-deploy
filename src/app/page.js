@@ -36,6 +36,12 @@ import SomeBiggerLine from './Images/SomeBiggerLine.png'
 import BiggerLine from './Images/BiigerLine.png'
 import ShipIcon from './Images/Sheep.png'
 import JavaScriptIcons from './Images/JavaScript-icons.png'
+import CodeSign from './Images/CodeSign.png'
+import SmallUpline from './Images/SmallUpline.png'
+import EastLeftArrow from './Images/EastLeftArrow.png'
+import EastUpLine from './Images/EastUpLine.png'
+import EastRightArrow from './Images/EastRightArrow.png'
+
 import { useState } from "react";
 
 export default function Home() {
@@ -201,19 +207,24 @@ const SecondSection = () => {
             <Image src={GradientLine} alt="gradientLine"/>
         </div>
       </div>
-      <div className="w-[32%] h-full border-r-[2px] border-slate-500 py-7 px-10">
+      <div className="w-[32%] h-full border-r-[2px] border-slate-500 py-7 px-10 relative">
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-[50px] text-[#F78319] font-[700]">50+</h2>
-          <p className="text-center text-[22px] leading-[33px] text-[#36454F]">Businesses were introduced last year on Digital Platform</p>
+          <p className="text-center text-[22px] leading-[30px] text-[#36454F]">Businesses were introduced last year on Digital Platform</p>
         </div>
-        <div className="flex flex-col justify-center items-center mt-9">
+        <div className="flex flex-col justify-center items-center mt-2">
           <h2 className="text-[50px] text-[#F78319] font-[700]">4.6 *</h2>
-          <p className="text-center text-[22px] leading-[33px] text-[#36454F]">Rating on Google by our Trusted Clients</p>
+          <p className="text-center text-[22px] leading-[30px] text-[#36454F]">Rating on Google by our Trusted Clients</p>
         </div>
-        <div className="flex flex-col justify-center items-center mt-9">
+        <div className="flex flex-col justify-center items-center mt-2">
           <h2 className="text-[50px] text-[#F78319] font-[700]">20+</h2>
-          <p className="text-center text-[22px] leading-[33px] text-[#36454F]">Positive Reviews on Glassdoor</p>
+          <p className="text-center text-[22px] leading-[30px] text-[#36454F]">Positive Reviews on Glassdoor</p>
         </div>
+        <div className="border-t-[2px] border-slate-500 w-full  h-[90px] absolute right-0 bottom-[62px]">
+              <div className="w-[30%] border-x-[2px] border-slate-500 h-[80px] mx-auto">
+                  <Image src={CodeSign} alt="Code_Sign" style={{width: '60px', height : '60px'}} className="mx-auto pt-5" />
+              </div>
+        </div>     
       </div>
       <div className="w-[8%]">
         <div className="w-full h-20 border-b-2 border-slate-500 p-2">
@@ -290,8 +301,57 @@ const SecondSection = () => {
       </div>
 
       {/* absolute-line */}
-      <div className="absolute bottom-[60px] w-full">
+      <div className="absolute bottom-[70px] w-full">
           <Image src={Line65} alt="line_65" style={{width: "92.6%"}}/>
+          
+      </div>
+      <div className="absolute bottom-0 left-40">
+          <Image src={SmallUpline} alt="line_65" style={{height: "70px"}}/>
+
+      </div>
+      <div className="absolute bottom-0 left-60">
+          <Image src={SmallUpline} alt="line_65" style={{height: "70px"}}/>
+      </div>
+      <div className="absolute bottom-0 right-[213px]">
+          <Image src={SmallUpline} alt="line_65" style={{height: "70px"}}/>
+
+      </div>
+      <div className="absolute bottom-0 right-[317px]">
+          <Image src={SmallUpline} alt="line_65" style={{height: "70px"}}/>
+      </div>
+      <div className="absolute bottom-0 left-[550px]">
+          <Image src={SmallUpline} alt="line_65" style={{height: "70px"}}/>
+
+      </div>
+      <div className="absolute bottom-0 left-[640px]">
+          <Image src={SmallUpline} alt="line_65" style={{height: "70px"}}/>
+      </div>
+      <div className="absolute bottom-0 left-[280px]">
+         <Image src={EastLeftArrow} alt="left_arrow"/>
+      </div>
+      <div className="absolute bottom-3 left-[380px]">
+         <Image src={EastUpLine} alt="left_arrow"/>
+      </div>
+      <div className="absolute bottom-0 left-[450px]">
+         <Image src={EastRightArrow} alt="left_arrow"/>
+      </div>
+      <div className="absolute bottom-[54px] left-[85px]">
+        <Image src={SmallLine} alt="smallLine" />
+      </div>
+      <div className="absolute bottom-[40px] left-[85px]">
+        <Image src={BiggerLine} alt="smallLine" style={{width: '77%'}} />
+      </div>
+      <div className="absolute bottom-[30px] left-[85px]">
+        <Image src={BiggerLine} alt="smallLine" style={{width: '77%'}} />
+      </div>
+      <div className="absolute bottom-[20px] left-[85px]">
+        <Image src={BiggerLine} alt="smallLine" style={{width: '77%'}} />
+      </div>
+      <div className="absolute bottom-[10px] left-[85px]">
+        <Image src={BiggerLine} alt="smallLine" style={{width: '77%'}} />
+      </div>
+      <div className="absolute bottom-[0px] left-[85px] mt-3">
+        <Image src={BiggerLine} alt="smallLine" style={{width: '77%'}} />
       </div>
     </div>
   );
